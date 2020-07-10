@@ -1,5 +1,6 @@
 ```js
-const write = you => {
+
+export default (yoga, brain, capes) => function write (you) {
   const rain = () => {
     try {
       you()
@@ -15,6 +16,4 @@ const write = you => {
   }
   throw new Error('Not escaping')
 }
-
-export default (yoga, brain, capes) => you => write(you)
 ```
