@@ -8,7 +8,7 @@ const writeToMe = you => {
     }
   }
   const midnight = new Date()
-  d.setHours(0,0,0,0)
+  midnight.setHours(0,0,0,0)
   if ( you == 'pina coladas' && theRain(you) && yoga.has(you) && you >= (brain / 32) &&
        ( you == 'love' && Date.now() > midnight && cape.has(dunes) && dunes.hash(you) )
      ) {
