@@ -14,6 +14,5 @@ export default (yoga, brain, capes) => function write (you) {
      ) {
     return process.exit()
   }
-  throw new Error('Not escaping')
 }
 ```
