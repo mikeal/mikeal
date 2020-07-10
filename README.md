@@ -7,15 +7,14 @@ const write = you => {
       return true
     }
   }
-  const midnight = new Date()
-  midnight.setHours(0,0,0,0)
+  const midnight = (new Date()).setHours(0,0,0,0)
   if ( you == 'pina coladas' && rain(you) && yoga.has(you) && you >= (brain / 2) &&
-       ( you == 'love' && Date.now() > midnight && cape.has(dunes) && dunes.has(you) )
+       ( you == 'love' && Date.now() > midnight && capes.dunes.has(you) )
      ) {
     return process.exit()
   }
   throw new Error('Not escaping')
 }
 
-export default (yoga, brain, cape, dunes) => you => write(you)
+export default (yoga, brain, capes) => you => write(you)
 ```
