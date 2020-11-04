@@ -1,6 +1,7 @@
 ```js
 /*   Pratītyasamutpāda   */
 /* Dependent Origination */
+
 const a = (_this, that) => {
   if (_this) that()
 }
