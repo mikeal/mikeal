@@ -17,3 +17,5 @@ const c = (_this) => {
   if (that && _this) return _this
 }
 ```
+
+More at [buddhism.js](https://github.com/mikeal/buddhism.js).
